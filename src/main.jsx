@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client"
 
 const elem=<span >Hello JavaScript</span>;
 
+// Functional Component
+
 const HeadingComponent= () =>
 (
     <div id="container">
@@ -21,8 +23,6 @@ const title=(
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(title);
-
-
 
 
 
