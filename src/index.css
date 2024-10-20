@@ -3,18 +3,21 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
+  /* height: 50px; */
 
 }
 .logo
 {
     margin-top: 4px;
     width: 110px;
+    position: relative;
+    left: 15px;
     /* height: 100px; */
 }
 .nav-items>ul{
   display: flex;
   list-style-type: none;    
-  font-size: larger;
+  font-size: 24px;
 
 
 }
@@ -22,19 +25,39 @@
     padding: 10px;
     margin: 10px;
 }
+.img{
+    position: relative;
+    right: 10px;
+    top: -10px;
+}
 .res-card
 {
-    border: 1px solid black;
-    height: 300px;
-    width: 200xp;
-    flex-wrap: wrap;
+    padding: 10px;
+    height: 258px;
+    width: 190px;
+    border:  1px solid black;
 }
 .res-card:hover
 {
     cursor: pointer;
-    border: 10px;   
+    border: 1px;
+}
+h3,h4{
+    line-height: 4px;
+    cursor: pointer;
+    border: 1px black;   
 }
 .search
 {
     padding: 10px ;
+}
+.res-logo
+{
+    width : 100%;
+} 
+.res-containers
+{
+    display: flex;
+    gap: 20px;
+
 }
